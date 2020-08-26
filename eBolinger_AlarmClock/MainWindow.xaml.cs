@@ -24,5 +24,12 @@ namespace eBolinger_AlarmClock
         {
             InitializeComponent();
         }
+
+        private void OnAddButtonClicked(object sender, RoutedEventArgs e)
+        {
+            string time = DateTime.Now.ToString("h:mm:ss tt");
+            //MessageBox.Show("The time is; " + time);
+            AlarmList.Items.Add(time);
+        }
     }
 }
