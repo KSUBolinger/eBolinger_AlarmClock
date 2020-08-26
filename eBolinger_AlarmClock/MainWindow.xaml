@@ -1,0 +1,27 @@
+﻿<Window x:Class="eBolinger_AlarmClock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eBolinger_AlarmClock"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="423.529" Width="255.071">
+    <Grid Margin="0,0,17,7">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="137*"/>
+        </Grid.ColumnDefinitions>
+        <ListView HorizontalAlignment="Left" Height="249" Margin="15,68,0,0" VerticalAlignment="Top" Width="207" Grid.ColumnSpan="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Button" HorizontalAlignment="Left" Height="27" Margin="15,27,0,0" VerticalAlignment="Top" Width="91" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="27" Margin="38.245,27,0,0" VerticalAlignment="Top" Width="91" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="27" Margin="15,339,0,0" VerticalAlignment="Top" Width="91" Grid.ColumnSpan="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="27" Margin="38.245,339,0,0" VerticalAlignment="Top" Width="91" Grid.Column="1"/>
+
+    </Grid>
+</Window>
