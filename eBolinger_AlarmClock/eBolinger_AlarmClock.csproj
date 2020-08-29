@@ -55,7 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AlarmCreation.xaml.cs">
+      <DependentUpon>AlarmCreation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TimeManagement.cs" />
+    <Page Include="AlarmCreation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

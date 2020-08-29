@@ -18,10 +18,10 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button Content="Edit" IsEnabled="False" HorizontalAlignment="Left" Height="27" Margin="15,27,0,0" VerticalAlignment="Top" Width="91" Grid.ColumnSpan="2"/>
-        <Button Content="+" Click="OnAddButtonClicked" HorizontalAlignment="Left" Height="27" Margin="38.245,27,0,0" VerticalAlignment="Top" Width="91" Grid.Column="1"/>
-        <Button Content="Snooze" IsEnabled="False" HorizontalAlignment="Left" Height="27" Margin="15,339,0,0" VerticalAlignment="Top" Width="91" Grid.ColumnSpan="2"/>
-        <Button Content="Stop" IsEnabled="False" HorizontalAlignment="Left" Height="27" Margin="38.245,339,0,0" VerticalAlignment="Top" Width="91" Grid.Column="1"/>
+        <Button Name="EditButton" Content="Edit" IsEnabled="False" HorizontalAlignment="Left" Height="27" Margin="15,27,0,0" VerticalAlignment="Top" Width="91" Grid.ColumnSpan="2"/>
+        <Button Name="AddButton" Content="+" Click="OnAddButtonClicked" HorizontalAlignment="Left" Height="27" Margin="38.245,27,0,0" VerticalAlignment="Top" Width="91" Grid.Column="1"/>
+        <Button Name="SnoozeButton" Content="Snooze" IsEnabled="False" HorizontalAlignment="Left" Height="27" Margin="15,339,0,0" VerticalAlignment="Top" Width="91" Grid.ColumnSpan="2"/>
+        <Button Name="StopButton" Content="Stop" IsEnabled="False" HorizontalAlignment="Left" Height="27" Margin="38.245,339,0,0" VerticalAlignment="Top" Width="91" Grid.Column="1"/>
 
     </Grid>
 </Window>

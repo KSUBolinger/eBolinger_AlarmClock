@@ -13,5 +13,6 @@ namespace eBolinger_AlarmClock
     /// </summary>
     public partial class App : Application
     {
+
     }
 }

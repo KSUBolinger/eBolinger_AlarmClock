@@ -12,27 +12,24 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using eBolinger_AlarmClock.Properties;
 
 namespace eBolinger_AlarmClock
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AlarmCreation.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AlarmCreation : Page
     {
-        public MainWindow()
+        public AlarmCreation()
         {
             InitializeComponent();
+            TimeSelectionBox.
         }
 
-        private void OnAddButtonClicked(object sender, RoutedEventArgs e)
+        private void SetButton_Click(object sender, RoutedEventArgs e)
         {
-            string time = DateTime.Now.ToString("h:mm:ss tt");
-            //MessageBox.Show("The time is; " + time);
-            AlarmList.Items.Add(time);
-            EditButton.IsEnabled = true;
-            SnoozeButton.IsEnabled = true;
-            StopButton.IsEnabled = true;
+            MainWindow.AlarmList;
         }
     }
 }
