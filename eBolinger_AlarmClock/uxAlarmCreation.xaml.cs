@@ -23,7 +23,8 @@ namespace eBolinger_AlarmClock
         public uxAlarmCreation()
         {
             InitializeComponent();
-            TimeDisplay.Text = DateTime.Now.ToString("hh:mm:ss tt");
+            //TimeDisplay.Text = DateTime.Now.ToString("hh:mm:ss tt");
+            //main.AlarmList.Items.Add(TimeDisplay.Text);
         }
 
         private void OnButtonClick(object sender, RoutedEventArgs e)
