@@ -30,8 +30,12 @@ namespace eBolinger_AlarmClock
             //string time = DateTime.Now.ToString("h:mm:ss tt");
             //MessageBox.Show("The time is; " + time);
             //AlarmList.Items.Add(time);
+
+
             uxAlarmCreation alarmCreation = new uxAlarmCreation();
             alarmCreation.Show();
+
+
             EditButton.IsEnabled = true;
             SnoozeButton.IsEnabled = true;
             StopButton.IsEnabled = true;

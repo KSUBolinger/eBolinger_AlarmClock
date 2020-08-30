@@ -20,10 +20,12 @@ namespace eBolinger_AlarmClock
     public partial class uxAlarmCreation : Window
     {
         MainWindow main = new MainWindow();
+
         public uxAlarmCreation()
         {
             InitializeComponent();
-            //TimeDisplay.Text = DateTime.Now.ToString("hh:mm:ss tt");
+            TimeDisplay.Text = DateTime.Now.ToString("hh:mm:ss tt");
+            //MessageBox.Show(TimeDisplay.Text);
             //main.AlarmList.Items.Add(TimeDisplay.Text);
         }
 
